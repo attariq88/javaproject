@@ -23,13 +23,14 @@ public class DuplicateDataPractice {
             }
             totalOccurences.put(individualWords,previousCount+1);
 
-
             if ((previousCount+1) >1){
                 int totalCount = previousCount +1;
                 multipleOccurences.put(individualWords,totalCount);
             }
+
         }
 
+        System.out.println(totalOccurences);
         System.out.println(multipleOccurences);
 
     }
